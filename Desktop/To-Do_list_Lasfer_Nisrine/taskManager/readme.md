@@ -5,16 +5,18 @@ python >= 3.10
 ## Getting started
 Create a virtual environement and install dependecies:
 ```bash
-1 - Create a virtual environement
+1 - Clone the github Repo:
+git clone https://github.com/NisrineDev/To-Do.git
+2 - Create a virtual environement
 Python -m venv env
-2 - Activate the virtual environement
+3 - Activate the virtual environement
 On Windows : env/Scripts/activate
 On Unix/MacOs : source env/Scripts/activate\
-3 - Installing dependecies:
+4 - Installing dependecies:
  pip install Flask
  pip install -r requirements.txt
-4 - Unit testing:
+5 - Unit testing:
 pytest test_app.py
-5 - run the server:
+6 - run the server:
 Flask run
 ```
