@@ -7,6 +7,7 @@ Create a virtual environement and install dependecies:
 ```bash
 1 - Clone the github Repo:
 git clone https://github.com/NisrineDev/To-Do.git
+cd taskManager
 2 - Create a virtual environement
 Python -m venv env
 3 - Activate the virtual environement
